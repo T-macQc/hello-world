@@ -12,5 +12,5 @@ int main(){
                                       curl_easy_strerror(res));
             curl_easy_cleanup(curl);
     }
-  retrun 0;
+  return 0;
 }
